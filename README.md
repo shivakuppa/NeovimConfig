@@ -1,4 +1,4 @@
-# Neovim Starter Kit for Python 🕹⚡🐍 #
+# Neovim Starter Kit 🕹⚡🐍 #
 
 This is a variant of the normal [Neovim Starter Kit](https://github.com/bcampolo/nvim-starter-kit) specialized for Python development.
 
