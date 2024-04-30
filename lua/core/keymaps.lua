@@ -1,3 +1,8 @@
+-- Shiva's Neovim keymaps
+
+-- [[ Basic Keymaps ]]
+--  See `:help vim.keymap.set()`
+
 -- Set leader key to space
 vim.g.mapleader = " "
 

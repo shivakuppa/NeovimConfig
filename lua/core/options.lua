@@ -1,3 +1,10 @@
+-- Shiva's Neovim options
+
+-- [[ Setting options ]]
+-- See `:help vim.opt`
+-- NOTE: You can change these options as you wish!
+--  For more options, you can see `:help option-list`
+
 local opt = vim.opt
 
 -- Session Management
@@ -46,7 +53,7 @@ opt.splitbelow = true
 opt.iskeyword:append("-")
 
 -- Disable the mouse while in nvim
-opt.mouse = ""
+-- opt.mouse = ""
 
 -- Folding
 opt.foldlevel = 20
