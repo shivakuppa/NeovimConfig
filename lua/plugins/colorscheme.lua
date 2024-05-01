@@ -1,5 +1,17 @@
 -- Theme/Colorscheme (uncomment section for whichever theme you prefer or use your own)
 
+-- Sonokai Theme
+-- return {
+--   -- https://github.com/sainnhe/sonokai
+--   'sainnhe/sonokai',
+--   lazy = false, -- We want the colorscheme to load immediately when starting Neovim
+--   priority = 1000, -- Load the colorscheme before other non-lazy-loaded plugins
+--   config = function(_, opts)
+--     vim.g.sonokai_style = "atlantis" -- "default, atlantis, andromeda, shusia, maia, espresso"
+--     vim.cmd("colorscheme sonokai") -- Replace this with your favorite colorscheme
+--   end
+-- }
+
 -- Kanagawa Theme (Custom Palette)
 return {
   -- https://github.com/rebelot/kanagawa.nvim
@@ -67,6 +79,7 @@ return {
         katanaGray = "#717C7C",
       },
     },
+    undercurls = true,
   },
   config = function(_, opts)
     require('kanagawa').setup(opts) -- Replace this with your favorite colorscheme
@@ -155,18 +168,6 @@ return {
 --   config = function(_, opts)
 --     require('catppuccin').setup(opts) -- Replace this with your favorite colorscheme
 --     vim.cmd("colorscheme catppuccin") -- Replace this with your favorite colorscheme
---   end
--- }
-
--- Sonokai Theme
--- return {
---   -- https://github.com/sainnhe/sonokai
---   'sainnhe/sonokai',
---   lazy = false, -- We want the colorscheme to load immediately when starting Neovim
---   priority = 1000, -- Load the colorscheme before other non-lazy-loaded plugins
---   config = function(_, opts)
---     vim.g.sonokai_style = "default" -- "default, atlantis, andromeda, shusia, maia, espresso"
---     vim.cmd("colorscheme sonokai") -- Replace this with your favorite colorscheme
 --   end
 -- }
 
