@@ -24,6 +24,9 @@ require("lazy").setup("plugins", {
 })
 
 -- These modules are not loaded by lazy
+
+-- Load Core Modules
 require("core.options")
 require("core.keymaps")
 require("core.autocmds")
+require("core.icons")
